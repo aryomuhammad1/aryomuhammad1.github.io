@@ -5,6 +5,13 @@ import ParticleWrapper from "./ParticleWrapper";
 import projects from "../constant";
 import "animate.css";
 import locationPng from "../assets/location2.png";
+import htmlPng from "../assets/html.png";
+import javascriptPng from "../assets/javascript.png";
+import cssPng from "../assets/css.png";
+import reactPng from "../assets/react.png";
+import nextjsPng from "../assets/nextjs.png";
+import sassPng from "../assets/sass.png";
+import tailwindcssPng from "../assets/tailwindcss.png";
 
 function Works() {
   console.log("projects : ", projects);
@@ -39,37 +46,37 @@ function Works() {
           </h3>
           <div className={`flex  flex-1 flex-wrap gap-1`}>
             <img
-              src="src/assets/html.png"
+              src={htmlPng}
               alt="html"
               className="sm:h-[28px] xs:h-[26px] h-[24px]"
             />
             <img
-              src="src/assets/javascript.png"
+              src={javascriptPng}
               alt="javascript"
               className="sm:h-[28px] xs:h-[26px] h-[24px]"
             />
             <img
-              src="src/assets/css.png"
+              src={cssPng}
               alt="css"
               className="sm:h-[28px] xs:h-[26px] h-[24px]"
             />
             <img
-              src="src/assets/react.png"
+              src={reactPng}
               alt="react"
               className="sm:h-[28px] xs:h-[26px] h-[24px]"
             />
             <img
-              src="src/assets/nextjs.png"
+              src={nextjsPng}
               alt="nextjs"
               className="sm:h-[28px] xs:h-[26px] h-[24px]"
             />
             <img
-              src="src/assets/sass.png"
+              src={sassPng}
               alt="sass"
               className="sm:h-[28px] xs:h-[26px] h-[24px]"
             />
             <img
-              src="src/assets/tailwindcss.png"
+              src={tailwindcssPng}
               alt="tailwindcss"
               className="sm:h-[28px] xs:h-[26px] h-[24px]"
             />

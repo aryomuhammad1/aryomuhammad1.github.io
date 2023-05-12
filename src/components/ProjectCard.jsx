@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../style";
+import arrowPng from "../assets/arrow.png";
 
 function ProjectCard({ title, description, img }) {
   return (
@@ -25,15 +26,15 @@ function ProjectCard({ title, description, img }) {
           >
             <p className="text-gradient font-medium">Live Site</p>
             <img
-              src="src/assets/arrow.png"
-              alt=""
+              src={arrowPng}
+              alt="arrow"
               className="xs:w-[20px] xs:h-[20px] w-[14px] h-[14px]"
             />
           </a>
         </div>
       </div>
       <div className="mt-8 md:mt-0 md:w-[50%] rounded-[20px] overflow-hidden">
-        <img src={`src/assets/${img}.png`} alt={title} />
+        <img src={img} alt={title} />
       </div>
     </div>
   );
