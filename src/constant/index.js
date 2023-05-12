@@ -1,4 +1,4 @@
-import hoobankPng from "../assets/hoobank.PNG";
+import hoobankPng from "../assets/hoobank.png";
 import bengkelOnlinePng from "../assets/bengkel-online.png";
 import introChatAppPng from "../assets/intro-chat-app.png";
 import realtorPng from "../assets/realtor.png";
