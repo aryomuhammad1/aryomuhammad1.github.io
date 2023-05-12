@@ -1,5 +1,4 @@
-import htmlPng from "../assets/html.png";
-// import hoobankPng from "../assets/hoobank.png";
+import hoobankPng from "../assets/hoobank.png";
 import bengkelOnlinePng from "../assets/bengkel-online.png";
 import introChatAppPng from "../assets/intro-chat-app.png";
 import realtorPng from "../assets/realtor.png";
@@ -10,7 +9,7 @@ const projects = [
     title: "Bengkel Online",
     description:
       "Progressive web app based application to find the nearest repair shop location and call a mechanic. Built using css, javascript, mapbox api, geolocation api, turf js and firebase.",
-    img: htmlPng,
+    img: bengkelOnlinePng,
     github: "https://github.com/aryomuhammad1/ModernBankApp",
     liveSite: "",
   },
@@ -28,7 +27,7 @@ const projects = [
     title: "HooBank",
     description:
       "Sebuah landing page bank modern yang dibangun untuk praktik menggunakan react js dan tailwindcss.",
-    img: bengkelOnlinePng,
+    img: hoobankPng,
     github: "https://github.com/aryomuhammad1/ModernBankApp",
     liveSite: "",
   },
