@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCard";
 import ParticleWrapper from "./ParticleWrapper";
 import projects from "../constant";
 import "animate.css";
+import locationPng from "../assets/location2.png";
 
 function Works() {
   console.log("projects : ", projects);
@@ -19,11 +20,7 @@ function Works() {
           Hi, I'm Aryo.
         </h1>
         <div className={`${styles.flexCenter} gap-1 z-[5]`}>
-          <img
-            src="src/assets/location2.png"
-            alt="location-marker"
-            className="h-[24px]"
-          />
+          <img src={locationPng} alt="location-marker" className="h-[24px]" />
           <p className={`${styles.paragraph}`}>Bekasi, West Java</p>
         </div>
         <p
