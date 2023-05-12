@@ -1,3 +1,4 @@
+import htmlPng from "../assets/html.png";
 import hoobankPng from "../assets/hoobank.png";
 import bengkelOnlinePng from "../assets/bengkel-online.png";
 import introChatAppPng from "../assets/intro-chat-app.png";
@@ -9,7 +10,7 @@ const projects = [
     title: "Bengkel Online",
     description:
       "Progressive web app based application to find the nearest repair shop location and call a mechanic. Built using css, javascript, mapbox api, geolocation api, turf js and firebase.",
-    img: bengkelOnlinePng,
+    img: htmlPng,
     github: "https://github.com/aryomuhammad1/ModernBankApp",
     liveSite: "",
   },
