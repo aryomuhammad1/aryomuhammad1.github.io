@@ -1,5 +1,5 @@
 import htmlPng from "../assets/html.png";
-import hoobankPng from "../assets/hoobank.png";
+// import hoobankPng from "../assets/hoobank.png";
 import bengkelOnlinePng from "../assets/bengkel-online.png";
 import introChatAppPng from "../assets/intro-chat-app.png";
 import realtorPng from "../assets/realtor.png";
@@ -28,7 +28,7 @@ const projects = [
     title: "HooBank",
     description:
       "Sebuah landing page bank modern yang dibangun untuk praktik menggunakan react js dan tailwindcss.",
-    img: hoobankPng,
+    img: bengkelOnlinePng,
     github: "https://github.com/aryomuhammad1/ModernBankApp",
     liveSite: "",
   },
