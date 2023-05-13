@@ -2,19 +2,12 @@ import React from "react";
 import styles from "../style";
 import ProjectCard from "./ProjectCard";
 import ParticleWrapper from "./ParticleWrapper";
-import projects from "../constant";
+import SkillLogo from "./SkillLogo";
+import { skills, projects } from "../constant";
 import "animate.css";
 import locationPng from "../assets/location2.png";
-import htmlPng from "../assets/html.png";
-import javascriptPng from "../assets/javascript.png";
-import cssPng from "../assets/css.png";
-import reactPng from "../assets/react.png";
-import nextjsPng from "../assets/nextjs.png";
-import sassPng from "../assets/sass.png";
-import tailwindcssPng from "../assets/tailwindcss.png";
 
 function Works() {
-  console.log("projects : ", projects);
   return (
     <section
       className={`animate__animated animate__fadeIn animate__slow 
@@ -42,44 +35,19 @@ function Works() {
           <h3
             className={`font-bold sm:text-[20px] xs:text-[18px] text-[14px] text-prim`}
           >
-            Tech stack :
+            Skills :
           </h3>
           <div className={`flex  flex-1 flex-wrap gap-1`}>
-            <img
-              src={htmlPng}
-              alt="html"
-              className="sm:h-[28px] xs:h-[26px] h-[24px]"
-            />
-            <img
-              src={javascriptPng}
-              alt="javascript"
-              className="sm:h-[28px] xs:h-[26px] h-[24px]"
-            />
-            <img
-              src={cssPng}
-              alt="css"
-              className="sm:h-[28px] xs:h-[26px] h-[24px]"
-            />
-            <img
-              src={reactPng}
-              alt="react"
-              className="sm:h-[28px] xs:h-[26px] h-[24px]"
-            />
-            <img
-              src={nextjsPng}
-              alt="nextjs"
-              className="sm:h-[28px] xs:h-[26px] h-[24px]"
-            />
-            <img
-              src={sassPng}
-              alt="sass"
-              className="sm:h-[28px] xs:h-[26px] h-[24px]"
-            />
-            <img
-              src={tailwindcssPng}
-              alt="tailwindcss"
-              className="sm:h-[28px] xs:h-[26px] h-[24px]"
-            />
+            {skills.map((skill) => {
+              return (
+                <SkillLogo
+                  key={skill.id}
+                  name={skill.name}
+                  logo={skill.logo}
+                  bgColor={skill.bgColor}
+                />
+              );
+            })}
           </div>
         </div>
       </div>
@@ -96,22 +64,6 @@ function Works() {
             />
           );
         })}
-
-        {/* <ProjectCard
-          title={"Bengkel Online"}
-          description={"Find the nearest repair shop for your motorcycle."}
-          img={"src/assets/hoobank.png"}
-        />
-        <ProjectCard
-          title={"Bengkel Online"}
-          description={"Find the nearest repair shop for your motorcycle."}
-          img={"src/assets/hoobank.png"}
-        />
-        <ProjectCard
-          title={"Bengkel Online"}
-          description={"Find the nearest repair shop for your motorcycle."}
-          img={"src/assets/hoobank.png"}
-        /> */}
       </div>
     </section>
   );
