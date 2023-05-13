@@ -180,6 +180,7 @@ input:checked + .slider:before {
 .navbar {
   position: relative;
 }
+
 .project-card {
   transition: background 1s, box-shadow 0.3s, transform 0.3s;
 }
