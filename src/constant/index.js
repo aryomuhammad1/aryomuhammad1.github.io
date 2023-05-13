@@ -2,6 +2,7 @@ import htmlPng from "../assets/html.png";
 import javascriptPng from "../assets/javascript.png";
 import cssPng from "../assets/css.png";
 import reactPng from "../assets/react.png";
+import reduxPng from "../assets/redux.png";
 import nextjsPng from "../assets/nextjs.png";
 import sassPng from "../assets/sass.png";
 import tailwindcssPng from "../assets/tailwindcss.png";
@@ -38,18 +39,24 @@ export const skills = [
   },
   {
     id: 4,
+    name: "Redux",
+    logo: reduxPng,
+    bgColor: "bg-violet-600",
+  },
+  {
+    id: 5,
     name: "Next JS",
     logo: nextjsPng,
     bgColor: "bg-black",
   },
   {
-    id: 5,
+    id: 6,
     name: "SASS",
     logo: sassPng,
     bgColor: "bg-pink-500",
   },
   {
-    id: 6,
+    id: 7,
     name: "TailwindCSS",
     logo: tailwindcssPng,
     bgColor: "bg-cyan-500",
