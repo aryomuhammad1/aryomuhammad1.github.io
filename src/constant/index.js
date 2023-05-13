@@ -70,8 +70,8 @@ export const projects = [
     description:
       "Progressive web app based application to find the nearest repair shop location and call a mechanic. Built using css, javascript, mapbox api, geolocation api, turf js and firebase.",
     img: bengkelOnlinePng,
-    github: "https://github.com/aryomuhammad1/ModernBankApp",
-    liveSite: "",
+    github: "https://github.com/aryomuhammad1/BengkelOnlineApp",
+    liveSite: "https://aplikasi-bengkel-online.web.app/",
   },
   {
     id: 1,
@@ -80,7 +80,7 @@ export const projects = [
       "Aplikasi chat sederhana yang dibangun untuk praktik menggunakan react js, sass dan firebase.",
     img: introChatAppPng,
     github: "https://github.com/aryomuhammad1/IntroChatApp",
-    liveSite: "",
+    liveSite: "https://intro-chat-app-9a8c3.web.app/",
   },
   {
     id: 2,
@@ -89,7 +89,7 @@ export const projects = [
       "Sebuah landing page bank modern yang dibangun untuk praktik menggunakan react js dan tailwindcss.",
     img: hoobankPng,
     github: "https://github.com/aryomuhammad1/ModernBankApp",
-    liveSite: "",
+    liveSite: "https://modernhoobank1.netlify.app/",
   },
   {
     id: 3,
@@ -98,6 +98,6 @@ export const projects = [
       "Sebuah landing page bank modern yang dibangun untuk praktik menggunakan react js dan tailwindcss.",
     img: realtorPng,
     github: "https://github.com/aryomuhammad1/RealEstateWebApp",
-    liveSite: "",
+    liveSite: "https://realtor-one-delta.vercel.app/",
   },
 ];
