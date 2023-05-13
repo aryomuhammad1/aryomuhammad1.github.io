@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../style";
 import arrowPng from "../assets/arrow.png";
 
-function ProjectCard({ title, description, img }) {
+function ProjectCard({ title, description, img, github, liveSite }) {
   return (
     <div
       className="project-card flex-1 flex md:justify-between md:items-center flex-col md:flex-row 
@@ -15,13 +15,13 @@ function ProjectCard({ title, description, img }) {
         </div>
         <div className="mt-5 flex flex-row gap-2 xs:gap-4 ">
           <a
-            href="#"
+            href={github}
             className={`${styles.flexCenter} gap-2 project-btn text-[12px] xs:text-[16px] py-2 px-3 xs:py-3 xs:px-5 bg-lightSecond rounded-[10px]`}
           >
             <p className={`text-gradient font-medium`}>Source Code</p>
           </a>
           <a
-            href="#"
+            href={liveSite}
             className={`${styles.flexCenter} project-btn site-btn flex gap-2.5 text-[12px] xs:text-[16px] py-2 px-3 xs:py-3 xs:px-5 bg-lightSecond rounded-[10px]`}
           >
             <p className="text-gradient font-medium">Live Site</p>
