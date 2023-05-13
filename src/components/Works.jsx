@@ -30,14 +30,14 @@ function Works() {
           using AR Lenses on Snapchat.
         </p>
         <div
-          className={`${styles.flexCenter} gap-2 shadow-custom rounded-full px-4 py-3 xs:px-10 xs:py-3 mt-6 z-[5]`}
+          className={`${styles.flexCenter} gap-3 shadow-custom rounded-full px-4 py-3 xs:px-10 xs:py-3 mt-6 z-[5]`}
         >
           <h3
             className={`font-bold sm:text-[20px] xs:text-[18px] text-[14px] text-prim`}
           >
             Skills :
           </h3>
-          <div className={`flex  flex-1 flex-wrap gap-1`}>
+          <div className={`flex  flex-1 flex-wrap gap-2`}>
             {skills.map((skill) => {
               return (
                 <SkillLogo
