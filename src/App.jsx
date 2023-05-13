@@ -1,8 +1,6 @@
 import React from "react";
 import Navigation from "./components/Navigation";
 import Pages from "./components/Pages";
-import About from "./components/About";
-import Works from "./components/Works";
 import styles from "./style";
 import Footer from "./components/Footer";
 
