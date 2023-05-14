@@ -5,7 +5,6 @@
 @tailwind utilities;
 
 :root {
-  /* font-size: 62.52%; */
   --black-gradient: linear-gradient(
     144.39deg,
     #ffffff -278.56%,
@@ -67,14 +66,6 @@ body {
   transition: 0.4s;
 }
 
-/* input:checked + .slider {
-  background-color: #2196f3;
-} */
-
-/* input:focus + .slider {
-  box-shadow: 0 0 1px #2196f3;
-} */
-
 input:checked + .slider:before {
   -webkit-transform: translateX(90%);
   -ms-transform: translateX(90%);
@@ -105,7 +96,6 @@ input:checked + .slider:before {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  /* text-fill-color: transparent; */
 }
 
 .bg-blue-gradient {
