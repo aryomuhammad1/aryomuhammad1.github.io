@@ -7,7 +7,6 @@ import Footer from "./components/Footer";
 function App() {
   const [active, setActive] = React.useState("works");
 
-  console.log("active : ", active);
   return (
     <div
       className={`${styles.flexCenter} flex-col w-full h-[100%] bg-second overflow-x-hidden`}
