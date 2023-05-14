@@ -15,7 +15,7 @@ const Navigation = ({ active, setActive }) => {
 
   function changeState(e) {
     const isChecked = e.target.checked;
-    setActive(isChecked ? "me" : "works");
+    setActive(isChecked ? "about" : "works");
   }
 
   function handleMouseMove(e) {
@@ -47,7 +47,7 @@ const Navigation = ({ active, setActive }) => {
           >
             <p
               className={`${styles.paragraph}  ${
-                active === "me" ? "font-semibold text-[20px]" : ""
+                active === "about" ? "font-semibold text-[20px]" : ""
               }`}
             >
               Me

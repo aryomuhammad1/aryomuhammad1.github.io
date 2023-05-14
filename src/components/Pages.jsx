@@ -3,7 +3,7 @@ import About from "./About";
 import Works from "./Works";
 
 const Pages = ({ active }) => {
-  return <div>{active === "me" ? <About /> : <Works />}</div>;
+  return <div>{active === "about" ? <About /> : <Works />}</div>;
 };
 
 export default Pages;
