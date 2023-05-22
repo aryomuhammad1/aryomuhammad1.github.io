@@ -26,10 +26,10 @@ function Works() {
         <p
           className={`${styles.paragraph} text-gradient tracking-wide w-[60%] leading-[26.8px] z-[5]`}
         >
-          I am a front-end developer who loves learning and has a great desire
-          for knowledge. I am curious, takes risks, and not afraid of failure.
-          My ability to collaborate, communicate effectively, and support others
-          can contribute to a positive and productive environment.
+          I love learning and have a great desire for knowledge. <br /> I am
+          curious, takes risks, and not afraid of failure. <br /> My true
+          passion lies in crafting visually appealing and user-friendly
+          interfaces.
         </p>
         <div
           className={`${styles.flexCenter} gap-3 shadow-custom rounded-full px-4 py-3 xs:px-10 xs:py-3 mt-6 z-[5]`}
